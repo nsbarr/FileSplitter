@@ -28,6 +28,7 @@
 		78960E1F18B2A3C500C3DE2D /* FileSplitter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FileSplitter; sourceTree = BUILT_PRODUCTS_DIR; };
 		78960E2218B2A3C500C3DE2D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		78960E2418B2A3C500C3DE2D /* FileSplitter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FileSplitter.1; sourceTree = "<group>"; };
+		78960E2C18B32C1C00C3DE2D /* mainclone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mainclone.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				78960E2218B2A3C500C3DE2D /* main.c */,
+				78960E2C18B32C1C00C3DE2D /* mainclone.c */,
 				78960E2418B2A3C500C3DE2D /* FileSplitter.1 */,
 			);
 			path = FileSplitter;
