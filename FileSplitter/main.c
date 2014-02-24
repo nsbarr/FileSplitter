@@ -15,41 +15,38 @@
 
 int main(void)
 {
-    FILE *originalFile = fopen("doubleletter/everyword.txt", "r");
-    FILE *outputFile = fopen("doubleletter/lettersthatfollow_a.txt", "w");
+    FILE *originalFile = fopen("a/everyword.txt", "r");
+    FILE *outputFile = fopen("a/lettersthatfollow_aa.txt", "w");
     char line [MAXLINE];
     char currentFirstLetter = 'a';
     char currentSecondLetter = 'a';
+    char currentThirdLetter = '5';
     
     
     while (fgets(line, MAXLINE, originalFile) != NULL && line[0] != '\n')
         
-        if (line[0] == currentFirstLetter) {
-            if (line[1] == currentSecondLetter) {
-                fputc(line[2], outputFile);
-                
-            }
-            else if (line[1] != currentSecondLetter) {
-                currentSecondLetter = line[1];
-                char buffer[32];
-                snprintf(buffer, sizeof(char) * 32, "doubleletter/lettersthatfollow_%c.txt", currentFirstLetter);
-                outputFile = fopen(buffer, "w");
-                fputc(line[2], outputFile);
-
+        if (line[0] == currentFirstLetter && line[1] == currentSecondLetter) {
+            if (line[2] != currentThirdLetter) {
+                fputc(line[1], outputFile);
+                currentThirdLetter = line[2];
             }
             
-
+            
         }
         else {
+            currentThirdLetter = '5';
             currentFirstLetter = line[0];
             currentSecondLetter = line[1];
             
             char buffer[32];
-            snprintf(buffer, sizeof(char) * 32, "doubleletter/lettersthatfollow_%c.txt", currentFirstLetter);
+            snprintf(buffer, sizeof(char) * 32, "a/lettersthatfollow_%c%c.txt", currentFirstLetter, currentSecondLetter);
             outputFile = fopen(buffer, "w");
-            fputc(line[2], outputFile);
-            
+            if (line[2] != currentThirdLetter) {
+                fputc(line[2], outputFile);
+                currentThirdLetter = line[2];
+            }
         }
+    return 0;
 }
 
 
