@@ -15,34 +15,51 @@
 
 int main(void)
 {
-    FILE *originalFile = fopen("foo/everyword.txt", "r");
-    FILE *outputFile = fopen("foo/lettersthatfollow_a.txt", "w");
+    FILE *originalFile = fopen("doubleletter/everyword.txt", "r");
+    FILE *outputFile = fopen("doubleletter/lettersthatfollow_aa.txt", "w");
     char line [MAXLINE];
     char currentFirstLetter = 'a';
-    char currentSecondLetter = '5';
+    char currentSecondLetter = 'a';
     
     
     while (fgets(line, MAXLINE, originalFile) != NULL && line[0] != '\n')
         
         if (line[0] == currentFirstLetter) {
-            if (line[1] != currentSecondLetter) {
-                fputc(line[1], outputFile);
+            if (line[1] == currentSecondLetter) {
+                fputc(line[3], outputFile);
+            }
+            else if (line[1] != currentSecondLetter) {
                 currentSecondLetter = line[1];
+                char buffer[32];
+                snprintf(buffer, sizeof(char) * 32, "doubleletter/lettersthatfollow_%c%c.txt", currentFirstLetter,currentSecondLetter);
+                outputFile = fopen(buffer, "w");
+                fputc(line[3], outputFile);
+
             }
             
 
         }
         else {
-            currentSecondLetter = '5';
             currentFirstLetter = line[0];
+            currentSecondLetter = line[1];
             
             char buffer[32];
-            snprintf(buffer, sizeof(char) * 32, "foo/lettersthatfollow_%c.txt", currentFirstLetter);
+            snprintf(buffer, sizeof(char) * 32, "doubleletter/lettersthatfollow_%c%c.txt", currentFirstLetter,currentSecondLetter);
             outputFile = fopen(buffer, "w");
-            if (line[1] != currentSecondLetter) {
-                fputc(line[1], outputFile);
-                currentSecondLetter = line[1];
-            }
+            fputc(line[3], outputFile);
+            
         }
-    return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

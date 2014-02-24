@@ -29,6 +29,34 @@
 		78960E2218B2A3C500C3DE2D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		78960E2418B2A3C500C3DE2D /* FileSplitter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FileSplitter.1; sourceTree = "<group>"; };
 		78960E2C18B32C1C00C3DE2D /* mainclone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mainclone.c; sourceTree = "<group>"; };
+		78960E2E18B65EF900C3DE2D /* everyword.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = everyword.txt; sourceTree = "<group>"; };
+		78960E2F18B65EF900C3DE2D /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		78960E3018B65EF900C3DE2D /* lettersthatfollow_a.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_a.txt; sourceTree = "<group>"; };
+		78960E3118B65EF900C3DE2D /* lettersthatfollow_b.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_b.txt; sourceTree = "<group>"; };
+		78960E3218B65EF900C3DE2D /* lettersthatfollow_c.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_c.txt; sourceTree = "<group>"; };
+		78960E3318B65EF900C3DE2D /* lettersthatfollow_d.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_d.txt; sourceTree = "<group>"; };
+		78960E3418B65EF900C3DE2D /* lettersthatfollow_e.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_e.txt; sourceTree = "<group>"; };
+		78960E3518B65EF900C3DE2D /* lettersthatfollow_f.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_f.txt; sourceTree = "<group>"; };
+		78960E3618B65EF900C3DE2D /* lettersthatfollow_g.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_g.txt; sourceTree = "<group>"; };
+		78960E3718B65EF900C3DE2D /* lettersthatfollow_h.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_h.txt; sourceTree = "<group>"; };
+		78960E3818B65EF900C3DE2D /* lettersthatfollow_i.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_i.txt; sourceTree = "<group>"; };
+		78960E3918B65EF900C3DE2D /* lettersthatfollow_j.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_j.txt; sourceTree = "<group>"; };
+		78960E3A18B65EF900C3DE2D /* lettersthatfollow_k.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_k.txt; sourceTree = "<group>"; };
+		78960E3B18B65EF900C3DE2D /* lettersthatfollow_l.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_l.txt; sourceTree = "<group>"; };
+		78960E3C18B65EF900C3DE2D /* lettersthatfollow_m.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_m.txt; sourceTree = "<group>"; };
+		78960E3D18B65EF900C3DE2D /* lettersthatfollow_n.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_n.txt; sourceTree = "<group>"; };
+		78960E3E18B65EF900C3DE2D /* lettersthatfollow_o.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_o.txt; sourceTree = "<group>"; };
+		78960E3F18B65EF900C3DE2D /* lettersthatfollow_p.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_p.txt; sourceTree = "<group>"; };
+		78960E4018B65EF900C3DE2D /* lettersthatfollow_q.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_q.txt; sourceTree = "<group>"; };
+		78960E4118B65EF900C3DE2D /* lettersthatfollow_r.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_r.txt; sourceTree = "<group>"; };
+		78960E4218B65EF900C3DE2D /* lettersthatfollow_s.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_s.txt; sourceTree = "<group>"; };
+		78960E4318B65EF900C3DE2D /* lettersthatfollow_t.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_t.txt; sourceTree = "<group>"; };
+		78960E4418B65EF900C3DE2D /* lettersthatfollow_u.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_u.txt; sourceTree = "<group>"; };
+		78960E4518B65EF900C3DE2D /* lettersthatfollow_v.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_v.txt; sourceTree = "<group>"; };
+		78960E4618B65EF900C3DE2D /* lettersthatfollow_w.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_w.txt; sourceTree = "<group>"; };
+		78960E4718B65EF900C3DE2D /* lettersthatfollow_x.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_x.txt; sourceTree = "<group>"; };
+		78960E4818B65EF900C3DE2D /* lettersthatfollow_y.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_y.txt; sourceTree = "<group>"; };
+		78960E4918B65EF900C3DE2D /* lettersthatfollow_z.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = lettersthatfollow_z.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +90,46 @@
 			isa = PBXGroup;
 			children = (
 				78960E2218B2A3C500C3DE2D /* main.c */,
+				78960E2D18B65EB700C3DE2D /* TextFiles */,
 				78960E2C18B32C1C00C3DE2D /* mainclone.c */,
 				78960E2418B2A3C500C3DE2D /* FileSplitter.1 */,
 			);
 			path = FileSplitter;
+			sourceTree = "<group>";
+		};
+		78960E2D18B65EB700C3DE2D /* TextFiles */ = {
+			isa = PBXGroup;
+			children = (
+				78960E2E18B65EF900C3DE2D /* everyword.txt */,
+				78960E2F18B65EF900C3DE2D /* input.txt */,
+				78960E3018B65EF900C3DE2D /* lettersthatfollow_a.txt */,
+				78960E3118B65EF900C3DE2D /* lettersthatfollow_b.txt */,
+				78960E3218B65EF900C3DE2D /* lettersthatfollow_c.txt */,
+				78960E3318B65EF900C3DE2D /* lettersthatfollow_d.txt */,
+				78960E3418B65EF900C3DE2D /* lettersthatfollow_e.txt */,
+				78960E3518B65EF900C3DE2D /* lettersthatfollow_f.txt */,
+				78960E3618B65EF900C3DE2D /* lettersthatfollow_g.txt */,
+				78960E3718B65EF900C3DE2D /* lettersthatfollow_h.txt */,
+				78960E3818B65EF900C3DE2D /* lettersthatfollow_i.txt */,
+				78960E3918B65EF900C3DE2D /* lettersthatfollow_j.txt */,
+				78960E3A18B65EF900C3DE2D /* lettersthatfollow_k.txt */,
+				78960E3B18B65EF900C3DE2D /* lettersthatfollow_l.txt */,
+				78960E3C18B65EF900C3DE2D /* lettersthatfollow_m.txt */,
+				78960E3D18B65EF900C3DE2D /* lettersthatfollow_n.txt */,
+				78960E3E18B65EF900C3DE2D /* lettersthatfollow_o.txt */,
+				78960E3F18B65EF900C3DE2D /* lettersthatfollow_p.txt */,
+				78960E4018B65EF900C3DE2D /* lettersthatfollow_q.txt */,
+				78960E4118B65EF900C3DE2D /* lettersthatfollow_r.txt */,
+				78960E4218B65EF900C3DE2D /* lettersthatfollow_s.txt */,
+				78960E4318B65EF900C3DE2D /* lettersthatfollow_t.txt */,
+				78960E4418B65EF900C3DE2D /* lettersthatfollow_u.txt */,
+				78960E4518B65EF900C3DE2D /* lettersthatfollow_v.txt */,
+				78960E4618B65EF900C3DE2D /* lettersthatfollow_w.txt */,
+				78960E4718B65EF900C3DE2D /* lettersthatfollow_x.txt */,
+				78960E4818B65EF900C3DE2D /* lettersthatfollow_y.txt */,
+				78960E4918B65EF900C3DE2D /* lettersthatfollow_z.txt */,
+			);
+			name = TextFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

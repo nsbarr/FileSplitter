@@ -13,10 +13,10 @@
 
 #define MAXLINE 50
 
-int main(void)
+int mainclone(void)
 {
     FILE *originalFile = fopen("foo/everyword.txt", "r");
-    FILE *outputFile = fopen("foo/lettersthatfollow_a.txt", "w");
+    FILE *outputFile = fopen("foo/lettersthatfollow_aa.txt", "w");
     char line [MAXLINE];
     char currentFirstLetter = 'a';
     char currentSecondLetter = '5';
@@ -37,7 +37,7 @@ int main(void)
             currentFirstLetter = line[0];
             
             char buffer[32];
-            snprintf(buffer, sizeof(char) * 32, "foo/lettersthatfollow_%c.txt", currentFirstLetter);
+            snprintf(buffer, sizeof(char) * 32, "foo/lettersthatfollow_%c%c.txt", currentFirstLetter,currentSecondLetter);
             outputFile = fopen(buffer, "w");
             if (line[1] != currentSecondLetter) {
                 fputc(line[1], outputFile);
